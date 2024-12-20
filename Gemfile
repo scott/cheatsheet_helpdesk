@@ -160,13 +160,13 @@ gem 'helpy_imap', git: 'https://github.com/helpyio/helpy_imap', branch: 'master'
 group :development, :test do
   # Audit Gemfile for security vulnerabilities
   gem 'bundler-audit', require: false
-  gem 'byebug'
+  gem 'byebug', '11.0'
   gem 'pry'
-  gem 'pry-byebug'
+  gem 'pry-byebug', '3.7.0'
   gem 'spring', '~> 2.0.2'
   gem 'annotate'
   gem 'brakeman', require: false
-  gem 'rubocop'
+  gem 'rubocop', '0.83.0'
   gem 'scss-lint'
   gem 'awesome_print'
   gem 'rb-readline'
